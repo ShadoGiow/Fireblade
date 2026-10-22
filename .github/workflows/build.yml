@@ -49,8 +49,11 @@ jobs:
           path: ~\AppData\Local\.xmake
           key: xmake-${{ runner.os }}-${{ hashFiles('xmake.lua', 'lib/commonlibsse-ng/xmake.lua') }}
 
+      # Default options on purpose (SE + AE + VR runtimes, as CommonLib's own prebuilt bundle is baked):
+      # on CI CommonLib downloads that bundle instead of compiling itself, and refuses any other runtime set.
+      # The plugin still loads on plain SE / AE through the Address Library; VR support is just not disabled.
       - name: Configure
-        run: xmake f -m releasedbg -y --skyrim_vr=n
+        run: xmake f -m releasedbg -y
 
       - name: Build
         run: xmake -y -v
