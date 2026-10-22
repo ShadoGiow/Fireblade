@@ -1,0 +1,80 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  # CommonLibSSE-NG (alandtse/CommonLibVR, branch "ng"): pinned so the build is reproducible.
+  COMMONLIB_REPO: alandtse/CommonLibVR
+  COMMONLIB_SHA: 12d61f3c39f7d4ba1b1ab543df2bca0e613dc747
+
+jobs:
+  tests:
+    # the portable core (bindings, config, pack manifests) and the game-side logic against a fake game
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install nlohmann-json
+        run: sudo apt-get update && sudo apt-get install -y nlohmann-json3-dev g++
+      - name: Allow ThreadSanitizer on the runner kernel
+        run: sudo sysctl -w vm.mmap_rnd_bits=28
+      - name: Core unit tests
+        run: SANITIZE=1 bash tests/run_tests.sh
+      - name: Runtime tests (fake game, ThreadSanitizer)
+        run: SANITIZE=thread bash tests/run_runtime_tests.sh
+      - name: Pack converter tests
+        run: python3 -I tests/test_converter.py
+
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get CommonLibSSE-NG
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.COMMONLIB_REPO }}
+          ref: ${{ env.COMMONLIB_SHA }}
+          path: lib/commonlibsse-ng
+
+      - uses: xmake-io/github-action-setup-xmake@v1
+        with:
+          xmake-version: latest
+
+      - name: Cache xmake packages
+        uses: actions/cache@v4
+        with:
+          path: ~\AppData\Local\.xmake
+          key: xmake-${{ runner.os }}-${{ hashFiles('xmake.lua', 'lib/commonlibsse-ng/xmake.lua') }}
+
+      - name: Configure
+        run: xmake f -m releasedbg -y --skyrim_vr=n
+
+      - name: Build
+        run: xmake -y -v
+
+      - name: Assemble mod package (files at the archive root)
+        shell: pwsh
+        run: |
+          $out = "build/windows/x64/releasedbg"
+          New-Item -ItemType Directory -Force -Path stage/SKSE/Plugins/SwapMoveset/Packs | Out-Null
+          Copy-Item "$out/SwapMoveset.dll" stage/SKSE/Plugins/
+          New-Item -ItemType Directory -Force -Path symbols | Out-Null
+          Copy-Item "$out/SwapMoveset.pdb" symbols/
+          Get-ChildItem -Recurse stage | Select-Object FullName
+
+      - name: Upload mod package
+        uses: actions/upload-artifact@v4
+        with:
+          name: SwapMoveset
+          path: stage/
+          if-no-files-found: error
+
+      - name: Upload debug symbols
+        uses: actions/upload-artifact@v4
+        with:
+          name: SwapMoveset-symbols
+          path: symbols/
+          if-no-files-found: warn
