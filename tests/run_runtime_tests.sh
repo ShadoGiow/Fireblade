@@ -20,4 +20,11 @@ if [[ -n "${NLOHMANN_INCLUDE:-}" ]]; then INC+=("-I${NLOHMANN_INCLUDE}"); fi
 "$CXX" -std=c++23 -fsyntax-only -D__stdcall= -Itests/stubs -Isrc -include src/pch.h \
   src/PackActiveCondition.cpp src/oar_api/OpenAnimationReplacer-ConditionTypes.cpp src/oar_api/OpenAnimationReplacerAPI-Conditions.cpp
 
+# the game-side code too, with <windows.h>-style min / max macros defined (MSVC build)
+for f in src/Runtime.cpp src/InputPoller.cpp src/MenuUI.cpp src/main.cpp src/PackActiveCondition.cpp; do
+  "$CXX" -std=c++23 -fsyntax-only -D__stdcall= -Itests/stubs -Isrc "${INC[@]}" -include src/pch.h \
+    -include tests/win_macros_prelude.h "$f"
+done
+echo "windows min/max macro check: ok"
+
 "$OUT"

@@ -43,7 +43,8 @@ Non serve installare nulla sul PC.
 4. Se un passaggio e' rosso, copia il testo dell'errore del passaggio che e' fallito.
 
 Il workflow scarica CommonLibSSE-NG a una versione fissata (`COMMONLIB_SHA` in `.github/workflows/build.yml`)
-e compila per SE e AE (non VR). Il job **tests** esegue anche tutti i test descritti sotto.
+e compila con le impostazioni standard di CommonLib (SE, AE e VR insieme, come la sua versione
+precompilata, che scarica da sola quando puo': cosi' la build e' molto piu' veloce). Il job **tests** esegue anche tutti i test descritti sotto.
 
 ## Installazione
 

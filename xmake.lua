@@ -1,6 +1,6 @@
 -- Swap Moveset - SKSE plugin (CommonLibSSE-NG, Skyrim SE / AE via Address Library)
 --
--- Build (Windows, MSVC):  xmake f -m releasedbg -y --skyrim_vr=n   then   xmake -y
+-- Build (Windows, MSVC):  xmake f -m releasedbg -y   then   xmake -y
 -- CommonLibSSE-NG is expected in lib/commonlibsse-ng (the GitHub workflow checks out the pinned commit).
 set_xmakever("3.0.0")
 

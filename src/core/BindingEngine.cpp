@@ -120,7 +120,7 @@ namespace sm
 		std::size_t maxSize = 0;
 		for (std::size_t i = 0; i < kActionCount; ++i) {
 			if (pressCandidate[i]) {
-				maxSize = std::max(maxSize, _bindings[i].inputs.size());
+				maxSize = (std::max)(maxSize, _bindings[i].inputs.size());  // parentheses: Windows headers define a max macro
 			}
 		}
 		for (std::size_t i = 0; i < kActionCount; ++i) {

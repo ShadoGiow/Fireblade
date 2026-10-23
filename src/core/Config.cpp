@@ -48,7 +48,7 @@ namespace sm
 			}
 			if (const auto it = a_node.find("timeMs"); it != a_node.end() && it->is_number_integer()) {
 				const auto v = it->get<std::int64_t>();
-				a_out.timeMs = v <= 0 ? 0u : static_cast<std::uint32_t>(std::min<std::int64_t>(v, kMaxTimeMs));
+				a_out.timeMs = v <= 0 ? 0u : static_cast<std::uint32_t>((std::min<std::int64_t>)(v, kMaxTimeMs));
 			}
 			if (const auto it = a_node.find("inputs"); it != a_node.end() && it->is_array()) {
 				a_out.inputs.clear();

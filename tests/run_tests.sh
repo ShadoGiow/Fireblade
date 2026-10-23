@@ -14,4 +14,11 @@ if [[ -n "${NLOHMANN_INCLUDE:-}" ]]; then INC+=("-I${NLOHMANN_INCLUDE}"); fi
   ${SANITIZE:+-fsanitize=address,undefined -fno-sanitize-recover=all} \
   -Isrc "${INC[@]}" \
   tests/test_core.cpp src/core/*.cpp -o "$OUT"
+
+# the core must also compile when <windows.h>-style min / max macros are defined (MSVC build)
+for f in src/core/*.cpp; do
+  "$CXX" -std=c++20 -fsyntax-only -Isrc "${INC[@]}" -include tests/win_macros_prelude.h "$f"
+done
+echo "windows min/max macro check: ok"
+
 "$OUT"
