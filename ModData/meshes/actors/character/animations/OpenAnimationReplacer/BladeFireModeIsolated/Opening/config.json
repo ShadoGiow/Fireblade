@@ -1,0 +1,17 @@
+{
+  "name": "Ignite opening only",
+  "priority": 2147483647,
+  "disabled": false,
+  "interruptible": false,
+  "replaceOnLoop": false,
+  "replaceOnEcho": false,
+  "ignoreDontConvertAnnotationsToTriggersFlag": true,
+  "triggersFromAnnotationsOnly": true,
+  "conditions": [
+    {
+      "condition": "BladeFireModeIsolatedOpening",
+      "requiredPlugin": "BladeFireMode",
+      "requiredVersion": "1.0.0.0"
+    }
+  ]
+}
