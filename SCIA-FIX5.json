@@ -1,0 +1,26 @@
+{
+  "bones": 6,
+  "delay_fractions": [
+    0.0,
+    0.14398325452461672,
+    0.3866441930273374,
+    0.6044937845293941,
+    0.8322855821551909,
+    1.0
+  ],
+  "original_weight_centers": [
+    8.618108367919922,
+    61.42380801114169,
+    150.4194393157959,
+    230.31553649902344,
+    313.8579268022017,
+    375.36700439453125
+  ],
+  "blade_interval_Y": [
+    13.5,
+    129.87
+  ],
+  "materials_and_UV": "unchanged",
+  "native_bs_version": 100,
+  "method": "Collapsed bind ribbon; identity inverse bind; six world-space weapon history bones"
+}
