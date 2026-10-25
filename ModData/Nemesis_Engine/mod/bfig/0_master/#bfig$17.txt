@@ -1,0 +1,9 @@
+		<hkobject name="#bfig$17" class="hkbBlenderGeneratorChild" signature="0xe2b384b0">
+			<hkparam name="variableBindingSet">#bfig$6</hkparam>
+			<hkparam name="generator">#bfig$15</hkparam>
+			<hkparam name="boneWeights">#bfig$5</hkparam>
+			<hkparam name="weight">0.000000</hkparam>
+			<hkparam name="worldFromModelWeight">0.000000</hkparam>
+		</hkobject>
+
+		
