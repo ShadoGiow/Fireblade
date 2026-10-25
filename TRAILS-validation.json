@@ -1,0 +1,58 @@
+{
+  "se_conversion_non_geometry_blocks_preserved": true,
+  "se_conversion": {
+    "method": "Xyn original non-geometry graph; verified identical UC SE skin/geometry blocks used as native SE representation",
+    "source_bs_version": 83,
+    "target_bs_version": 100,
+    "shapes": [
+      {
+        "shape": "Slash",
+        "vertices_identical": 56,
+        "triangles_identical": 66,
+        "bone_order_and_weights_preserved": true,
+        "max_UV_half_float_error": 0.0004658699035644531,
+        "max_vertex_color_byte_error": 0.7399711012840271
+      },
+      {
+        "shape": "Wave",
+        "vertices_identical": 56,
+        "triangles_identical": 66,
+        "bone_order_and_weights_preserved": true,
+        "max_UV_half_float_error": 0.0004488229751586914,
+        "max_vertex_color_byte_error": 0.7399711012840271
+      }
+    ],
+    "final_sha256": "3ef09720f0f1696c3fd9b86f5f8f577df2259557eb3f38ccd6cbdba73dc3b7be"
+  },
+  "existing_records_preserved": 2,
+  "new_art_form": "0x802",
+  "no_new_external_masters": true,
+  "xyn_visuals_exact_after_normalizing_private_paths": true,
+  "native_nif_parser": "SKYRIMSE, no errors",
+  "private_havok_files_validated": [
+    "meshes\\BladeFireMode\\Trails\\SwingBehavior\\autoplay.hkx",
+    "meshes\\BladeFireMode\\Trails\\SwingBehavior\\characterassets\\singleboneskeleton.hkx",
+    "meshes\\BladeFireMode\\Trails\\SwingBehavior\\behaviors\\autoplay\\autoplaybehavior.hkx",
+    "meshes\\BladeFireMode\\Trails\\SwingBehavior\\characters\\autoplay\\autoplaycharacter.hkx"
+  ],
+  "existing_animation_nemesis_and_weapon_assets_unchanged": true,
+  "public_mode_functions_defined": [
+    "Install",
+    "OnPreLoad",
+    "OnGameLoaded",
+    "Tick",
+    "RequestOn",
+    "RequestOff",
+    "RequestToggle",
+    "RequestEvent",
+    "RequestSoundTest",
+    "GetSnapshot",
+    "IsActive",
+    "AllowSwingTrails",
+    "IsOARIgniting"
+  ],
+  "ultimate_combat_dll_or_esp_included": false,
+  "dll_compile": "PENDING: no local compiler",
+  "runtime_test": "PENDING",
+  "installed_mod_changed": false
+}
