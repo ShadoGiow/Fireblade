@@ -1,0 +1,55 @@
+﻿BLADEFIREMODE - IGNITE MOBILE + SWING FIRE DI XYN
+25 ottobre 2026 - SORGENTI DA COMPILARE, NON PACCHETTO MO2 GIA COMPILATO
+
+STATO
+Codice, ESP e asset preparati e controllati staticamente.
+DLL non compilata: sul computer non e presente una toolchain C++/xmake.
+Prova in Skyrim ancora necessaria. Nessun file della mod installata e stato modificato.
+Il pacchetto comprende anche il candidato precedente Ignite in movimento, tuttora da validare in gioco.
+La cartella work/ignite-moving/Source del candidato precedente e rimasta separata.
+
+FUNZIONE SWING FIRE
+Solo il giocatore, con la spada riconosciuta da BladeFireMode estratta e la modalita accesa.
+Non durante le opening di attivazione. Gli NPC e le altre armi sono esclusi.
+La mesh SwingEffect di Xyn FIRE e agganciata a WEAPON tramite un ARTO della nostra ESP (0x802).
+La DLL inoltra gli swing al behavior privato e gli eventi di fine interrompono la scia.
+Un limite temporale la spegne anche se una animazione non invia l'evento di fine.
+Spegnimento della modalita, rinfodero, cambio arma, morte e caricamento salvati rimuovono il nostro effetto.
+Il codice termina solo il proprio ModelReferenceEffect: non usa arresti globali degli effetti.
+Menu F1 > Fiamma Lama/Danni e Mana: interruttore Swing FIRE e durata massima (default 0.45 s).
+Le impostazioni si salvano in INI, sezione SwingFire: Attivi, DurataMassima.
+
+ASSET E DIPENDENZE
+Non installare UltimateCombat.esp, UltimateCombat.dll o InsertAttackData.dll per questa funzione.
+Non sono inclusi AI, poise, dodge, script, MCM o behavior degli attori di Ultimate Combat.
+Sono inclusi solo i quattro piccoli HKX necessari al behavior dell'effetto (progetto, character, skeleton e behavior).
+Tutti i componenti sono in percorsi BladeFireMode privati; nessun replacer globale ultimatecombat o textures/effects.
+Xyn FIRE fornito aveva formato LE: i due mesh/skin sono stati convertiti in SSE usando i blocchi SE di UC,
+verificando uguaglianza dei vertici, triangoli e pesi. Colori e UV hanno la normale precisione ridotta SE.
+Materiali FIRE, keyframe, controller e ossa ritardate restano quelli di Xyn.
+Due texture DDS originali FIRE sono copiate senza alterarne i dati.
+
+COMPILAZIONE E INSTALLAZIONE
+Usa l'intero contenuto di questa cartella come progetto, incluso ModData e la cartella .github.
+Il workflow .github/workflows/build.yml compila e produce un artifact con tutti i dati MO2 e la nuova DLL.
+La build deve contenere la DLL nuova INSIEME all'ESP nuova: la vecchia ESP non contiene ARTO 0x802.
+Non installare soltanto ModData aspettandoti che la vecchia DLL faccia comparire le scie.
+Non e stato caricato nulla su GitHub in questa modifica.
+Il solo sistema delle scie non aggiunge patch Nemesis al grafo del personaggio.
+Il candidato Ignite mobile incluso richiede invece la normale rigenerazione Nemesis del suo modulo bfig.
+Non spostare overwrite, non cancellare cache e non sostituire manualmente behavior condivisi.
+Prima di aggiornare la mod installata, conserva una copia della nostra cartella BladeFireMode.
+
+CONTROLLI E LIMITI
+PASS: lettura NIF con parser indipendente in formato SKYRIMSE, senza errori.
+PASS: quattro HKX nativi a 64 bit leggibili con hkxc.
+PASS: preservazione dei due GLOB esistenti; aggiunto solo ARTO 0x802, nessun master esterno.
+PASS: animazioni approvate e asset arma del candidato precedente invariati.
+Compilazione/link della DLL, resa delle scie e comportamento in combo non ancora verificati nel gioco.
+
+CREDITI / FONTI PRIMARIE
+Ultimate Combat di tktk: https://www.nexusmods.com/skyrimspecialedition/mods/17196
+Xyn's Reworked Weapon Swing Effect FIRE di Xynra21: https://www.nexusmods.com/skyrimspecialedition/mods/60051
+CommonLibSSE-NG, API TESObjectREFR::ApplyArtObject e ModelReferenceEffect:
+https://github.com/alandtse/CommonLibSSE-NG/tree/dbb86c2523fae0cc70de074f3e2d1a6b657758dc
+Progetto personale basato sui file forniti dall'utente. Nessuna nuova distribuzione pubblica effettuata.
