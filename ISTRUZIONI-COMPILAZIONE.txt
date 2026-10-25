@@ -1,0 +1,8 @@
+1. Caricare il contenuto di questa cartella nel repository, mantenendo src, ModData, .github e xmake.lua allo stesso livello.
+2. Avviare il workflow Build Nemesis bfig MO2. Lo avvia l utente; Codex non ha pubblicato o compilato su GitHub.
+3. L artifact BladeFireMode-Nemesis-bfig-MO2 conterra la DLL compilata insieme ai dati necessari.
+4. Non installare i tre HKX del laboratorio: contengono soltanto Nemesis Base e bfig, non la lista Nolvus.
+5. Dopo la build, installare l artifact come NUOVA versione della nostra mod, senza merge, disabilitando solo le precedenti BladeFireMode.
+6. Nella futura generazione reale mantenere i check preesistenti e aggiungere BladeFireMode Dedicated Ignite. Nessun file di altre mod va spostato o cancellato.
+
+Generazione in laboratorio e controlli degli HKX reali superati; integrazione Nolvus e test in gioco ancora da fare.
