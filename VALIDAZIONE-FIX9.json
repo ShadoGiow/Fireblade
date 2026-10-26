@@ -1,0 +1,41 @@
+{
+  "2hm_walkforward.HKX": {
+    "gait_phases": 92,
+    "user_clip_frames": 141,
+    "old_model_space_orientation_error_min_deg": 3.5061020022059797,
+    "old_model_space_orientation_error_max_deg": 59.625345045413354,
+    "new_max_orientation_error_deg": 2.161914636736308e-14,
+    "intermediate_fade_orientation_error_rad": 1.0447383962286266e-16,
+    "lower_body_FK_unchanged": true,
+    "relative_hand_distance_unchanged": true
+  },
+  "2hm_runforward.HKX": {
+    "gait_phases": 38,
+    "user_clip_frames": 141,
+    "old_model_space_orientation_error_min_deg": 0.0,
+    "old_model_space_orientation_error_max_deg": 61.92133880599874,
+    "new_max_orientation_error_deg": 1.7682584567790136e-14,
+    "intermediate_fade_orientation_error_rad": 2.292986861754152e-16,
+    "lower_body_FK_unchanged": true,
+    "relative_hand_distance_unchanged": true
+  },
+  "2hm_sprintforwardsword.HKX": {
+    "gait_phases": 35,
+    "user_clip_frames": 141,
+    "old_model_space_orientation_error_min_deg": 1.6898884699983847,
+    "old_model_space_orientation_error_max_deg": 73.66413734140066,
+    "new_max_orientation_error_deg": 2.0332098812507473e-14,
+    "intermediate_fade_orientation_error_rad": 2.408444732601508e-16,
+    "lower_body_FK_unchanged": true,
+    "relative_hand_distance_unchanged": true
+  },
+  "pose_cases": 23265,
+  "all_ModData_byte_identical_to_FIX8": true,
+  "trails_unchanged": true,
+  "hook_scope": "exact own node name AND registered player hkbCharacter AND opening weight>0",
+  "output_modified": "Spine rotation only",
+  "guards": "dense pose, track type/size/range, finite unit quaternion, original called once even on rejection",
+  "cpp_build": "PENDING",
+  "game_test": "PENDING",
+  "Nemesis_regeneration": "NOT REQUIRED from FIX8"
+}

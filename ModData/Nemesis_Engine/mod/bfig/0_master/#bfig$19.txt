@@ -1,0 +1,395 @@
+<hkobject name="#bfig$19" class="hkbVariableBindingSet" signature="0x338ad4ff">
+	<hkparam name="bindings" numelements="65">
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:24</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:25</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:26</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:27</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:28</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:29</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:30</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:31</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:32</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:35</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:36</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:37</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:38</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:39</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:40</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:41</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:42</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:43</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:44</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:45</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:46</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:47</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:48</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:49</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:52</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:53</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:54</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:55</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:56</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:57</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:58</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:59</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:60</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:62</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:63</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:67</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:68</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:69</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:70</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:71</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:72</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:73</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:74</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:75</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:76</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:77</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:78</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:79</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:80</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:81</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:82</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:83</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:84</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:85</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:86</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:87</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:88</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:89</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:90</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:91</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:92</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:93</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:94</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:95</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+		<hkobject>
+			<hkparam name="memberPath">boneWeights:96</hkparam>
+			<hkparam name="variableIndex">$variableID[BFM_MoveBaseWeight]$</hkparam>
+			<hkparam name="bitIndex">-1</hkparam>
+			<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+		</hkobject>
+	</hkparam>
+	<hkparam name="indexOfBindingToEnable">-1</hkparam>
+</hkobject>
