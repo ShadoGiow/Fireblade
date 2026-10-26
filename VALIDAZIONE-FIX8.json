@@ -1,0 +1,35 @@
+{
+  "actual_log_previous_upper_weight": 99,
+  "documented_child_weight_range": [
+    0,
+    1
+  ],
+  "new_child_weights_supported": true,
+  "mask_bindings": 65,
+  "bones_in_masks": 116,
+  "mask_weight_cases": 11716,
+  "max_weight_sum_error": 0.0,
+  "full_overlay_replaces_all_upper_bones": true,
+  "locomotion_lower_bones_and_root_full_weight": true,
+  "user_HKX_and_all_meshes_byte_identical_to_FIX7": true,
+  "trails_unchanged": true,
+  "new_VFS_signature_required": true,
+  "no_new_events_or_graph_variables": true,
+  "installed_files_modified": false,
+  "cache_backups": [
+    {
+      "source": "C:\\SkyrimNolvus\\Instances\\Nolvus Awakening\\MODS\\overwrite\\Nemesis_Engine\\cache",
+      "backup": "C:\\Users\\Giova\\Documents\\Codex\\2026-10-23\\sto-sviluppando-una-mod-per-skyrim-5\\outputs\\BACKUP-NEMESIS-prima-FIX8-20261026\\overwrite\\cache",
+      "files": 10
+    },
+    {
+      "source": "C:\\SkyrimNolvus\\Instances\\Nolvus Awakening\\MODS\\mods\\Nemesis Output\\Nemesis_Engine\\cache",
+      "backup": "C:\\Users\\Giova\\Documents\\Codex\\2026-10-23\\sto-sviluppando-una-mod-per-skyrim-5\\outputs\\BACKUP-NEMESIS-prima-FIX8-20261026\\Nemesis Output\\cache",
+      "files": 0
+    }
+  ],
+  "full_Nemesis_generation": "PENDING",
+  "C++_build": "PENDING",
+  "game_test": "PENDING",
+  "limit": "Offline algebra and serialization checks; no runtime proof of binding evaluation or visual correctness"
+}
